@@ -10,8 +10,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"src/test/java/Cucumber/Features/"},
-        format = {"pretty", "html:target/cucumber.html"},
-        tags = {"@run"}
+        format = {"pretty", "html:target/cucumber.html"}
 )
 public class CucumberRunner {
 }

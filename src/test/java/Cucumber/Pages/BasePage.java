@@ -21,7 +21,6 @@ public abstract class BasePage {
     public void open(String URL)
     {
         WebDriverHolder.getDriver().get(URL);
-        WebDriverHolder.getDriver().manage().window().maximize();
     }
 
     public String getCurrentPageUrl() {
