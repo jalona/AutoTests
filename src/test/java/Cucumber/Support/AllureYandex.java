@@ -52,9 +52,9 @@ public class AllureYandex {
         return imageInByte;
     }
 
-    @Attachment
-    public static String makeFile(String text) {
-        return text;
+    @Attachment(value = "{0}", type = "text/plain")
+    public static String makeTextLog(String attachName, String message) {
+        return message;
     }
 
 }

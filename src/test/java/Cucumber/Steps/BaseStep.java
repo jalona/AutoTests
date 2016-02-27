@@ -10,6 +10,6 @@ public abstract class BaseStep {
     public void attach(){
         AllureYandex.makeScreenshotWindow("PNG Window_Screenshot");
         AllureYandex.makeScreenshotScreen("PNG Screen_Screenshot");
-        AllureYandex.makeFile("this maybe log");
+        AllureYandex.makeTextLog("TXT Log", "this maybe log");
     }
 }
